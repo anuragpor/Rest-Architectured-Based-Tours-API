@@ -45,6 +45,8 @@ GET
 
 
 127.0.0.1:3000/api/v1/tours?page=1&limit=5&sort=price&fields=name, price
+
+
 {
     "status": "success",
     "results": 5,
@@ -82,6 +84,8 @@ GET
 
 POST
 127.0.0.1:3000/api/v1/tours
+
+
 {
     "id": 8,
     "name": "The Northern Lights 3",
@@ -101,6 +105,7 @@ POST
 
 DELETE
 127.0.0.1:3000/api/v1/tours/605105b223f3116324f7fd64
+
 Delete based on ID
 
 
