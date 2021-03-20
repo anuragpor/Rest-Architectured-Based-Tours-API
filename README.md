@@ -6,7 +6,7 @@ the tours database based on MongoDB using the mongoose library. The database inc
 tour, price, average rating, etc. Tech: Node.Js, Express, MongoDB, Mongoose
 
 Database Schema for Tour Models: models/tour.js
-This application has the following features 
+This application has the following features for user input :
 Filter - Filter the data based on the input provided. Lookup the entries only for the ones that are needed
 Sort - Sort the data based on the field provided. This is designed to intake multiple sorting fields.
 Pagination - paginate the application and retrieve the page number we want. By default, the limit is 1 page
