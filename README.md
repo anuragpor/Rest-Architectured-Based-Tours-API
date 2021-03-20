@@ -14,8 +14,12 @@ Field - retrieve the selective  fields if needed based on the input
 Limit - limits the entries required to visualize a more user compatible output
 
 The following CRUD operations and API endpoints are part of the application:
+
 GET
+
 127.0.0.1:3000/api/v1/tours?limit=3&fields=name, price, difficulty
+
+
 {
     "status": "success",
     "results": 3,
@@ -43,6 +47,7 @@ GET
     }
 }
 
+GET
 
 127.0.0.1:3000/api/v1/tours?page=1&limit=5&sort=price&fields=name, price
 
@@ -83,6 +88,7 @@ GET
 
 
 POST
+
 127.0.0.1:3000/api/v1/tours
 
 
@@ -104,6 +110,7 @@ POST
 
 
 DELETE
+
 127.0.0.1:3000/api/v1/tours/605105b223f3116324f7fd64
 
 Delete based on ID
